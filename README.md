@@ -1,1 +1,3 @@
 # flash-sam3
+
+**flash-sam3** aims to create a faster version of SAM3 by replacing its heavy image encoder with a lightweight alternative — TinyViT or EfficientViT — using knowledge distillation, while preserving IoU and segmentation performance with significant gains in latency. This repository includes comprehensive benchmarking scripts to compare the original SAM3 model against the distilled variants across speed, memory, and accuracy metrics.
